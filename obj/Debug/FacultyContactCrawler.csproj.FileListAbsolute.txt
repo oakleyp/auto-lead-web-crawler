@@ -1,0 +1,1 @@
+c:\users\oakley\documents\visual studio 2015\Projects\FacultyContactCrawler\FacultyContactCrawler\bin\Debug\FacultyContactCrawler.exe.config
