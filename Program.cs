@@ -416,7 +416,7 @@ namespace FacultyContactCrawler
             int spacect = 0; // If it contains 1 to 4 spaces, that's a good start
             foreach (char letter in content) if (letter == ' ') { spacect++; }
             if ((IndexOfAny(content, Keywords.ToArray()) != -1)) return true; // It's gotta be a name at least
-            else if (spacect > 4) return false; // 4 names and no title? Either irrelevant or hispanic and irrelevant de facto, ignoring the unicornesque Mexican CS Professors
+            else if (spacect > 4) return false; // 4 names and no title?... 
             else if (spacect > 1 && spacect < 5) return true;
             else return false;
 
